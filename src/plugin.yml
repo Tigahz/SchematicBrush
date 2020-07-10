@@ -1,0 +1,21 @@
+name: SchematicBrush
+version: 1.0
+author: Tigahz
+main: me.tigahz.schematicbrush.SchematicBrush
+api-version: 1.13
+depend:
+  - WorldEdit
+commands:
+  /mybrush:
+    aliases: [mybrush]
+    description: Change your brush settings
+  schematicbrush:
+    aliases: [sbrush, sb, /sb]
+    description: Setup ScheamticBrush
+  /publicbrush:
+    aliases: [publicbrush, pbrush, /pbrush]
+    description: Change public brush settings
+  /setbrush:
+    aliases: [setbrush]
+    description: Set your brush type
+
